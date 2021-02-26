@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+
+
+	<test name="Samsung S9">
+	<listeners>
+			<listener class-name="com.qa.listeners.TestListener" />
+		</listeners> 
+		 
+		<parameter name="emulator" value="false" />
+		<parameter name="platformName" value="Android" />
+		<parameter name="udid" value="225ac1ea21057ece" />
+		<parameter name="deviceName" value="Samsung s9" />
+		<parameter name="systemPort" value="10000" />
+		<parameter name="chromeDriverPort" value="11000" />
+		
+		<!--
+		<parameter name="emulator" value="false" />
+		<parameter name="platformName" value="Android" />
+		<parameter name="udid" value="c4670633490a076d1b139108190d4c989fbfdff1" />
+		<parameter name="deviceName" value="OppoF7" />
+		<parameter name="systemPort" value="10000" />
+		<parameter name="chromeDriverPort" value="11000" />
+	 -->
+		<classes>
+		
+		<groups>
+			<run>
+				<include name="RegressionTest">
+				</include>
+			</run>
+		</groups>
+		<!--  
+		   <class name="com.qa.tests.LoginTest" priority="1"></class>
+	 	 
+	 		<class name="com.qa.tests.BankingDashBoardTest" priority="2"></class> 
+			<class name="com.qa.tests.ControlCenterTest" priority="3"></class>
+			<class name="com.qa.tests.SettingsTest" priority="4"></class> 
+			<class name="com.qa.tests.CurrentAccountsTest" priority="5"></class>
+			<class name="com.qa.tests.LoansTest" priority="6"></class>
+			<class name="com.qa.tests.HirePurchaseTest" priority="7"></class> 
+			<class name="com.qa.tests.FixedDepositMakerTest" priority="8"></class> 
+			<class name="com.qa.tests.PaymentsTransferVerifications" priority="9"></class> 
+		   -->
+		    
+			<class name="com.qa.tests.PaymentsTest" priority="10"></class>   	
+			<class name="com.qa.tests.TransfersTest" priority="11"></class>    
+		
+		</classes>
+	</test>
+	
+	
+<!-- 
+	<test name="iPhone8">
+		<listeners>
+			<listener class-name="com.qa.listeners.TestListener" />
+		</listeners>
+		<parameter name="platformName" value="iOS" /
+		<parameter name="udid" value="c4670633490a076d1b139108190d4c989fbfdff1" />
+		<parameter name="deviceName" value="iPhone (2)" />
+		<parameter name="wdaLocalPort" value="10001" />
+		<parameter name="webkitDebugProxyPort" value="11001" />
+		<classes>
+			<class name="com.qa.tests.SettingsTest" priority="5"></class> 
+		</classes>
+	</test>   
+ -->
+	
+	
+</suite> <!-- Suite -->

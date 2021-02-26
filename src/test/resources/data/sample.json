@@ -1,0 +1,59 @@
+{
+    "makerCredentials":{
+        "username":"smemaker1",
+        "password":"mbbsme2345"
+        },
+        
+ 	"jompayBillerDetails":{
+        "billerCode":"8391",
+        "ref1":"Test123",
+        "ref2":"Test0987"
+        },
+        
+     "BillPaymentDetails":{
+        "billerCode":"21st Century"
+        },
+         
+ 	"ThirdPartyTransfer":{
+        "AccountNumber":"564016964742"
+        }, 
+        
+     "GIROImmediateTransfer":{
+     	"BankName":"CIMB BANK",
+        "AccountNumber":"8007210884",
+        "AccountName":"ONLINE04"
+        }, 
+      "GIROFutureTransfer":{
+     	"BankName":"CIMB BANK",
+        "AccountNumber":"8007210884",
+        "AccountName":"ONLINE04"
+        } ,
+        
+      "GIRORecurringTransfer":{
+     	"BankName":"CIMB BANK",
+        "AccountNumber":"8007210884",
+        "AccountName":"ONLINE04"
+        },
+        
+      "IBFTImmediateTransfer":{
+     	"BankName":"CIMB BANK",
+        "AccountNumber":"8007210884",
+        "AccountName":"ONLINE04"
+        }, 
+      "IBFTFutureTransfer":{
+     	"BankName":"CIMB BANK",
+        "AccountNumber":"8007210884",
+        "AccountName":"ONLINE04"
+        } ,
+        
+      "IBFTRecurringTransfer":{
+     	"BankName":"CIMB BANK",
+        "AccountNumber":"8007210884",
+        "AccountName":"ONLINE04"
+        },
+        
+      "DuitNow":{
+     	"MobileNumber":"60164583188"
+        }
+}
+

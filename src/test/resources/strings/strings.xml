@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!-- Settings-->
+	<string name="PasswordErrMsg_LessThan8">Password cannot be less than 8 characters</string>
+	<string name="PasswordErrMsg_MoreThan8">Password is invalid. Password must be a mixture of alphabets and numbers.</string>
+	<string name="PasswordSnackBarErrMsg">Invalid login details. Need Help?</string>
+    <string name="Notification_Success">Timing Successfully Set</string>
+    <string name="product_title">PRODUCTS</string>
+    <string name="BusinessProfileWebsite_SnackbarMsg">Website URL sucessfully updated.</string>
+	<string name="PersonalProfileEmail_SnackbarMsg">Email address successfully updated.</string>
+	<string name="Notification_SelectATimeError_Msg">Please select a time.</string>
+	<string name="UpdateMyDevice">Device Successfully renamed</string>
+	<string name="SecurityPhrase_msg">Security Phrase successfully changed.</string>
+	<string name="UpdateNickname">Nickname successfully updated.</string>
+	
+
+
+</resources>

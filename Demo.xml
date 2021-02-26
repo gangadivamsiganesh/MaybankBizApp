@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+
+
+	<test name="OPPO F7">
+		<listeners>
+			<listener class-name="com.qa.listeners.TestListener" />
+		</listeners>
+
+		<parameter name="emulator" value="false" />
+		<parameter name="platformName" value="Android" />
+		<parameter name="udid" value="MVHEWKTSNFMNYHJZ" />
+		<parameter name="deviceName" value="OPPO F7" />
+		<parameter name="systemPort" value="10000" />
+		<parameter name="chromeDriverPort" value="11000" />
+
+		<groups>
+			<run>
+				<include name="Demo">
+				</include>
+			</run>
+		</groups>
+
+		<classes>
+
+		 	<class name="com.qa.tests.CurrentAccountsTest" priority="1"></class>
+		 	<class name="com.qa.tests.LoansTest" priority="2"></class>
+		 	<class name="com.qa.tests.HirePurchaseTest" priority="3"></class>
+		
+		</classes>
+	</test>
+
+
+
+</suite> <!-- Suite -->
